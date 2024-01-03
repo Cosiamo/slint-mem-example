@@ -1,5 +1,6 @@
 [package]
 name = "memory"
+build = "build.rs"
 version = "0.1.0"
 edition = "2021"
 
@@ -8,3 +9,6 @@ edition = "2021"
 [dependencies]
 rand = "0.8"
 slint = "1.3.2"
+
+[build-dependencies]
+slint-build = "1.3.2"
